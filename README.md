@@ -3,5 +3,5 @@
 - Website Using HTML, CSS & JavaScript.
 - Smooth scrolling in each section.
 
-![spartans](/preview.jpg)
+![spartans](/preview.JPG)
 
