@@ -1,448 +1,617 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Poppins&family=Roboto+Condensed:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- Ion Icons -->
-    <link
-      rel="stylesheet"
-      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
-    />
-    <!-- Bootstrap Style -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <!-- Style CSS  -->
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Spartans Website</title>
-  </head>
-  <body>
-    <!-- ======================= Header =======================-->
-    <header>
-      <nav class="nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Experiance</a></li>
-          <li class="logo">
-            <a href="#">
-              <img
-                class="logo-img logo-img--white"
-                src="icons/logo-white.png"
-                alt="Spartans logo"
-              />
-              <img
-                class="logo-img logo-img--black"
-                src="icons/logo-white.png"
-                alt="Spartans logo"
-              />
-            </a>
-          </li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Our Client</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <a class="nav-icon" href="javascript:void(0);">
-          <span></span><span></span><span></span>
-        </a>
-      </nav>
-      <div class="bg-video">
-        <video playsinline="playsinline" autoplay muted loop="loop">
-          <source src="king-kong.mp4" type="video/mp4" />
-        </video>
-      </div>
-    </header>
-    <!-- ======================= Navigation Full =======================-->
-    <div class="full-nav">
-      <div class="logo">
-        <a href="#">
-          <img src="icons/logo2.png" alt="Spartans logo black" />
-        </a>
-      </div>
-      <nav class="nav2">
-        <ul>
-          <li>
-            <a href="#"><span>01.</span>Home</a>
-          </li>
-          <li>
-            <a href="#"><span>02.</span>Features</a>
-          </li>
-          <li>
-            <a href="#"><span>03.</span>Team</a>
-          </li>
-          <li>
-            <a href="#"><span>04.</span>Work</a>
-          </li>
-          <li>
-            <a href="#"><span>05.</span>Pricing</a>
-          </li>
-          <li>
-            <a href="#"><span>06.</span>Client</a>
-          </li>
-          <li>
-            <a href="#"><span>07.</span>Blog</a>
-          </li>
-          <li>
-            <a href="#"><span>08.</span>Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="corner-circle">
-        <a class="nav-close" href="javascript:void(0);">
-          <span></span>
-          <span></span>
-        </a>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Poppins&family=Roboto+Condensed:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Ion Icons -->
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+  <!-- Bootstrap Style -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <!-- Slick CSS -->
+  <link rel="stylesheet" href="css/slick.css">
+  <!-- Style CSS  -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/avatar-1.svg" type="svg+xml">
+  <title>Spartans Website</title>
+</head>
+
+<body>
+  <!-- ======================= Header =======================-->
+  <header>
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about-us">Features</a></li>
+        <li><a href="#services">Projects</a></li>
+        <li><a href="#experience">Experiance</a></li>
+        <li class="logo">
+          <a href="#">
+            <img class="logo-img logo-img--white" src="icons/logo-white.png" alt="Spartans logo" />
+            <img class="logo-img logo-img--black" src="icons/logo-white.png" alt="Spartans logo" />
+          </a>
+        </li>
+        <li><a href="#prices">Pricing</a></li>
+        <li><a href="#testimonials">Our Client</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="nav-icon" href="javascript:void(0);">
+        <span></span><span></span><span></span>
+      </a>
+    </nav>
+    <div class="bg-video">
+      <video playsinline="playsinline" autoplay muted loop="loop">
+        <source src="king-kong.mp4" type="video/mp4" />
+      </video>
     </div>
+  </header>
+  <!-- ======================= Navigation Full =======================-->
+  <div class="full-nav">
+    <div class="logo">
+      <a href="#">
+        <img src="icons/logo2.png" alt="Spartans logo black" />
+      </a>
+    </div>
+    <nav class="nav2">
+      <ul>
+        <li>
+          <a href="#"><span>01.</span>Home</a>
+        </li>
+        <li>
+          <a href="#about-us"><span>02.</span>Features</a>
+        </li>
+        <li>
+          <a href="#services"><span>03.</span>Team</a>
+        </li>
+        <li>
+          <a href="#experience"><span>04.</span>Work</a>
+        </li>
+        <li>
+          <a href="#prices"><span>05.</span>Pricing</a>
+        </li>
+        <li>
+          <a href="#testimonials"><span>06.</span>Client</a>
+        </li>
+        <li>
+          <a href="#blog"><span>07.</span>Blog</a>
+        </li>
+        <li>
+          <a href="#contact"><span>08.</span>Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="corner-circle">
+      <a class="nav-close" href="javascript:void(0);">
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+  </div>
 
-    <main id="contents">
-      <!-- =======================About Us ======================= -->
-      <section id="about-us">
-        <div class="container">
-          <div class="row">
-            <div class="col text-center">
-              <h3>New Features</h3>
-              <p class="lead">THE STUNNING POSSIBILITIES OF THE THEME</p>
-              <br /><br />
-              <div id="one" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="row">
-                      <div class="col-md px-md-5">
-                        <div class="text-dark pb-3">
-                          <i class="fa fa-shield fa-5x"></i>
-                        </div>
-                        <h4 class="text-dark">WPML MULTI-LANGUAGE SUPPORT</h4>
-                        <p class="text-secondary">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Phasellus dictum enim diam, at condimentum purus
-                          facilisis in. Aenean convallis tempor nulla, in
-                          elementum odio ornare vitae. In faucibus tempus ante
-                          vitae pretium.
-                        </p>
+  <main id="contents">
+    <!-- =======================About Us ======================= -->
+    <section id="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h3>New Features</h3>
+            <p class="lead">THE STUNNING POSSIBILITIES OF THE THEME</p>
+            <br /><br />
+            <div id="one" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md px-md-5">
+                      <div class="text-dark pb-3">
+                        <i class="fa fa-shield fa-5x"></i>
                       </div>
-
-                      <div class="col-md px-md-5">
-                        <div class="text-dark pb-3">
-                          <i class="fa fa-cog fa-5x"></i>
-                        </div>
-                        <h4 class="text-dark">FULLY CUSTOMIZABLE THEME</h4>
-                        <p class="text-secondary">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Phasellus dictum enim diam, at condimentum purus
-                          facilisis in. Aenean convallis tempor nulla, in
-                          elementum odio ornare vitae. In faucibus tempus ante
-                          vitae pretium.
-                        </p>
-                      </div>
-
-                      <div class="col-md px-md-5">
-                        <div class="text-dark pb-3">
-                          <i class="fa fa-bolt fa-5x"></i>
-                        </div>
-                        <h4 class="text-dark">STUNNING UPDATE VERSION 7.0</h4>
-                        <p class="text-secondary">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Phasellus dictum enim diam, at condimentum purus
-                          facilisis in. Aenean convallis tempor nulla, in
-                          elementum odio ornare vitae. In faucibus tempus ante
-                          vitae pretium.
-                        </p>
-                      </div>
+                      <h4 class="text-dark">WPML MULTI-LANGUAGE SUPPORT</h4>
+                      <p class="text-secondary">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Phasellus dictum enim diam, at condimentum purus
+                        facilisis in. Aenean convallis tempor nulla, in
+                        elementum odio ornare vitae. In faucibus tempus ante
+                        vitae pretium.
+                      </p>
                     </div>
-                  </div>
 
-                  <div class="carousel-item">
-                    <div class="row">
-                      <div class="col-md px-md-5">
-                        <div class="text-dark pb-3">
-                          <i class="fa fa-shield fa-5x"></i>
-                        </div>
-                        <h4 class="text-dark">WPML MULTI-LANGUAGE SUPPORT</h4>
-                        <p class="text-secondary">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Phasellus dictum enim diam, at condimentum purus
-                          facilisis in. Aenean convallis tempor nulla, in
-                          elementum odio ornare vitae. In faucibus tempus ante
-                          vitae pretium.
-                        </p>
+                    <div class="col-md px-md-5">
+                      <div class="text-dark pb-3">
+                        <i class="fa fa-cog fa-5x"></i>
                       </div>
-
-                      <div class="col-md px-md-5">
-                        <div class="text-dark pb-3">
-                          <i class="fa fa-cog fa-5x"></i>
-                        </div>
-                        <h4 class="text-dark">FULLY CUSTOMIZABLE THEME</h4>
-                        <p class="text-secondary">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Phasellus dictum enim diam, at condimentum purus
-                          facilisis in. Aenean convallis tempor nulla, in
-                          elementum odio ornare vitae. In faucibus tempus ante
-                          vitae pretium.
-                        </p>
-                      </div>
-
-                      <div class="col-md px-md-5">
-                        <div class="text-dark pb-3">
-                          <i class="fa fa-bolt fa-5x"></i>
-                        </div>
-                        <h4 class="text-dark">STUNNING UPDATE VERSION 7.0</h4>
-                        <p class="text-secondary">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Phasellus dictum enim diam, at condimentum purus
-                          facilisis in. Aenean convallis tempor nulla, in
-                          elementum odio ornare vitae. In faucibus tempus ante
-                          vitae pretium.
-                        </p>
-                      </div>
+                      <h4 class="text-dark">FULLY CUSTOMIZABLE THEME</h4>
+                      <p class="text-secondary">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Phasellus dictum enim diam, at condimentum purus
+                        facilisis in. Aenean convallis tempor nulla, in
+                        elementum odio ornare vitae. In faucibus tempus ante
+                        vitae pretium.
+                      </p>
                     </div>
-                  </div>
 
-                  <div class="carousel-item">
-                    <div class="row">
-                      <div class="col-md px-md-5">
-                        <div class="text-dark pb-3">
-                          <i class="fa fa-shield fa-5x"></i>
-                        </div>
-                        <h4 class="text-dark">WPML MULTI-LANGUAGE SUPPORT</h4>
-                        <p class="text-secondary">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Phasellus dictum enim diam, at condimentum purus
-                          facilisis in. Aenean convallis tempor nulla, in
-                          elementum odio ornare vitae. In faucibus tempus ante
-                          vitae pretium.
-                        </p>
+                    <div class="col-md px-md-5">
+                      <div class="text-dark pb-3">
+                        <i class="fa fa-bolt fa-5x"></i>
                       </div>
-
-                      <div class="col-md px-md-5">
-                        <div class="text-dark pb-3">
-                          <i class="fa fa-cog fa-5x"></i>
-                        </div>
-                        <h4 class="text-dark">FULLY CUSTOMIZABLE THEME</h4>
-                        <p class="text-secondary">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Phasellus dictum enim diam, at condimentum purus
-                          facilisis in. Aenean convallis tempor nulla, in
-                          elementum odio ornare vitae. In faucibus tempus ante
-                          vitae pretium.
-                        </p>
-                      </div>
-
-                      <div class="col-md px-md-5">
-                        <div class="text-dark pb-3">
-                          <i class="fa fa-bolt fa-5x"></i>
-                        </div>
-                        <h4 class="text-dark">STUNNING UPDATE VERSION 7.0</h4>
-                        <p class="text-secondary">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Phasellus dictum enim diam, at condimentum purus
-                          facilisis in. Aenean convallis tempor nulla, in
-                          elementum odio ornare vitae. In faucibus tempus ante
-                          vitae pretium.
-                        </p>
-                      </div>
+                      <h4 class="text-dark">STUNNING UPDATE VERSION 7.0</h4>
+                      <p class="text-secondary">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Phasellus dictum enim diam, at condimentum purus
+                        facilisis in. Aenean convallis tempor nulla, in
+                        elementum odio ornare vitae. In faucibus tempus ante
+                        vitae pretium.
+                      </p>
                     </div>
                   </div>
                 </div>
-                <ol class="carousel-indicators">
-                  <li data-target="#one" data-slide-to="0" class="active"></li>
-                  <li data-target="#one" data-slide-to="1"></li>
-                  <li data-target="#one" data-slide-to="2"></li>
-                </ol>
 
-                <a href="#one" class="carousel-control-prev" data-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md px-md-5">
+                      <div class="text-dark pb-3">
+                        <i class="fa fa-shield fa-5x"></i>
+                      </div>
+                      <h4 class="text-dark">WPML MULTI-LANGUAGE SUPPORT</h4>
+                      <p class="text-secondary">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Phasellus dictum enim diam, at condimentum purus
+                        facilisis in. Aenean convallis tempor nulla, in
+                        elementum odio ornare vitae. In faucibus tempus ante
+                        vitae pretium.
+                      </p>
+                    </div>
+
+                    <div class="col-md px-md-5">
+                      <div class="text-dark pb-3">
+                        <i class="fa fa-cog fa-5x"></i>
+                      </div>
+                      <h4 class="text-dark">FULLY CUSTOMIZABLE THEME</h4>
+                      <p class="text-secondary">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Phasellus dictum enim diam, at condimentum purus
+                        facilisis in. Aenean convallis tempor nulla, in
+                        elementum odio ornare vitae. In faucibus tempus ante
+                        vitae pretium.
+                      </p>
+                    </div>
+
+                    <div class="col-md px-md-5">
+                      <div class="text-dark pb-3">
+                        <i class="fa fa-bolt fa-5x"></i>
+                      </div>
+                      <h4 class="text-dark">STUNNING UPDATE VERSION 7.0</h4>
+                      <p class="text-secondary">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Phasellus dictum enim diam, at condimentum purus
+                        facilisis in. Aenean convallis tempor nulla, in
+                        elementum odio ornare vitae. In faucibus tempus ante
+                        vitae pretium.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md px-md-5">
+                      <div class="text-dark pb-3">
+                        <i class="fa fa-shield fa-5x"></i>
+                      </div>
+                      <h4 class="text-dark">WPML MULTI-LANGUAGE SUPPORT</h4>
+                      <p class="text-secondary">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Phasellus dictum enim diam, at condimentum purus
+                        facilisis in. Aenean convallis tempor nulla, in
+                        elementum odio ornare vitae. In faucibus tempus ante
+                        vitae pretium.
+                      </p>
+                    </div>
+
+                    <div class="col-md px-md-5">
+                      <div class="text-dark pb-3">
+                        <i class="fa fa-cog fa-5x"></i>
+                      </div>
+                      <h4 class="text-dark">FULLY CUSTOMIZABLE THEME</h4>
+                      <p class="text-secondary">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Phasellus dictum enim diam, at condimentum purus
+                        facilisis in. Aenean convallis tempor nulla, in
+                        elementum odio ornare vitae. In faucibus tempus ante
+                        vitae pretium.
+                      </p>
+                    </div>
+
+                    <div class="col-md px-md-5">
+                      <div class="text-dark pb-3">
+                        <i class="fa fa-bolt fa-5x"></i>
+                      </div>
+                      <h4 class="text-dark">STUNNING UPDATE VERSION 7.0</h4>
+                      <p class="text-secondary">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Phasellus dictum enim diam, at condimentum purus
+                        facilisis in. Aenean convallis tempor nulla, in
+                        elementum odio ornare vitae. In faucibus tempus ante
+                        vitae pretium.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ol class="carousel-indicators">
+                <li data-target="#one" data-slide-to="0" class="active"></li>
+                <li data-target="#one" data-slide-to="1"></li>
+                <li data-target="#one" data-slide-to="2"></li>
+              </ol>
+
+              <a href="#one" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a href="#one" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================= Services =======================-->
+    <section id="services">
+      <div class="container">
+        <h2 class="section-title">Recently Added Projects</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-box rounded padding-30 text-center shadow-blue">
+              <img src="/images/service-1.svg" alt="UI/UX design" />
+              <h3>UI/UX design</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
+                commodo ligula eget.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box rounded padding-30 text-center shadow-yellow">
+              <img src="/images/service-2.svg" alt="Web Dev+" />
+              <h3>Web Dev+</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
+                commodo ligula eget.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box rounded padding-30 text-center shadow-pink">
+              <img src="/images/service-3.svg" alt="Photography" />
+              <h3>Photography</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
+                commodo ligula eget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================= Experience =======================-->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Experience</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="timeline bg-dark rounded padding-30">
+              <div class="timeline-container">
+                <div class="content">
+                  <span class="time">2021 - Present</span>
+                  <h3 class="title">
+                    <i class="ion-aperture"></i>
+                    Academic Degree
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet quo ei simul congue exerci ad
+                    nec admodum perfecto.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-container">
+                <div class="content">
+                  <span class="time">2017 - 2013</span>
+                  <h3 class="title">
+                    <i class="ion-grid"></i> Bachelor’s Degree
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet quo ei simul congue exerci ad
+                    nec admodum perfecto.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-container">
+                <div class="content">
+                  <span class="time">2013 - 2009</span>
+                  <h3 class="title">
+                    <i class="ion-clock"></i> Honours Degree
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet quo ei simul congue exerci ad
+                    nec admodum perfecto.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="timeline bg-dark rounded padding-30">
+              <div class="timeline-container">
+                <div class="content">
+                  <span class="time">2021 - Present</span>
+                  <h3 class="title">
+                    <i class="ion-compass"></i> Web Designer
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet quo ei simul congue exerci ad
+                    nec admodum perfecto.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-container">
+                <div class="content">
+                  <span class="time">2017 - 2013</span>
+                  <h3 class="title">
+                    <i class="ion-bag"></i> Front-End Developer
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet quo ei simul congue exerci ad
+                    nec admodum perfecto.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-container">
+                <div class="content">
+                  <span class="time">2013 - 2009</span>
+                  <h3 class="title">
+                    <i class="ion-monitor"></i> Back-End Developer
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet quo ei simul congue exerci ad
+                    nec admodum perfecto.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================= Prices =======================-->
+    <section id="prices">
+      <div class="container">
+        <h2 class="section-title">Pricing Plans</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="price-item rounded text-center">
+              <img src="images/price-1.svg" alt="basic">
+              <h2 class="plan">Basic</h2>
+              <p>A Simple option but powerful to manage your business</p>
+              <p class="mb-0">Email support</p>
+              <h3 class="price"><em>$</em>9<span>Month</span></h3>
+              <a href="#" class="btn btn-default">Get Started</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="price-item bg-dark rounded text-center best">
+              <span class="badge">Recommended</span>
+              <img src="images/price-2.svg" alt="premium">
+              <h2 class="plan">Premium</h2>
+              <p>Unlimited product including apps integrations and more features</p>
+              <p class="mb-0">Mon-Fri support</p>
+              <h3 class="price"><em>$</em>49<span>Month</span></h3>
+              <a href="#" class="btn btn-default">Get Started</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="price-item rounded text-center">
+              <img src="images/price-3.svg" alt="ultimate">
+              <h2 class="plan">Ultimate</h2>
+              <p>A wise option for large companies and individuals</p>
+              <p class="mb-0">24/7 support</p>
+              <h3 class="price"><em>$</em>99<span>Month</span></h3>
+              <a href="#" class="btn btn-default">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================= Testimonials =======================-->
+    <section id="testimonials">
+      <div class="container">
+        <h2 class="section-title">CLIENTS & REVIEWS</h2>
+        <div class="testimonials-wrapper">
+          <div class="testimonial-item text-center mx-auto">
+            <div class="thumb mb-3 mx-auto">
+              <img src="images/avatar-1.svg" alt="avatar client 1">
+            </div>
+            <h4>John Doe</h4>
+            <span class="subtitle-text text-white">Product designer at Dribbble</span>
+            <div class="bg-dark padding-50 shadow-dark rounded triangle-top position-relative mt-4">
+              <p class="mb-0">I enjoy working with the theme and learn so much. You guys make the process fun and
+                interesting. Good
+                luck! 🔥</p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center mx-auto">
+            <div class="thumb mb-3 mx-auto">
+              <img src="images/avatar-2.svg" alt="avatar client 2">
+            </div>
+            <h4>John Doe</h4>
+            <span class="subtitle-text text-white">Product designer at Dribbble</span>
+            <div class="bg-dark padding-50 shadow-dark rounded triangle-top position-relative mt-4">
+              <p class="mb-0">I enjoy working with the theme and learn so much. You guys make the process fun and
+                interesting. Good
+                luck! 🔥</p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center mx-auto">
+            <div class="thumb mb-3 mx-auto">
+              <img src="images/avatar-3.svg" alt="avatar client 3">
+            </div>
+            <h4>John Doe</h4>
+            <span class="subtitle-text text-white">Product designer at Dribbble</span>
+            <div class="bg-dark padding-50 shadow-dark rounded triangle-top position-relative mt-4">
+              <p class="mb-0">I enjoy working with the theme and learn so much. You guys make the process fun and
+                interesting. Good
+                luck! 🔥</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================= Blog =======================-->
+    <section id="blog">
+      <div class="container">
+        <h2 class="section-title">LATEST POSTS</h2>
+        <div class="row blog-wrapper">
+          <div class="col-md-4">
+            <div class="blog-item rounded bg-dark shadow-dark">
+              <div class="thumb">
+                <a href="#">
+                  <span class="category">Reviews</span>
                 </a>
-                <a href="#one" class="carousel-control-next" data-slide="next">
-                  <span class="carousel-control-next-icon"></span>
+                <a href="#">
+                  <img src="images/1.svg" alt="blog-title">
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- ======================= Services =======================-->
-      <section id="services">
-        <div class="container">
-          <h2 class="section-title">Recently Added Projects</h2>
-          <div class="row">
-            <div class="col-md-4">
-              <div
-                class="service-box rounded padding-30 text-center shadow-blue"
-              >
-                <img src="/images/service-1.svg" alt="UI/UX design" />
-                <h3>UI/UX design</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
-                  commodo ligula eget.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div
-                class="service-box rounded padding-30 text-center shadow-yellow"
-              >
-                <img src="/images/service-2.svg" alt="Web Dev+" />
-                <h3>Web Dev+</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
-                  commodo ligula eget.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div
-                class="service-box rounded padding-30 text-center shadow-pink"
-              >
-                <img src="/images/service-3.svg" alt="Photography" />
-                <h3>Photography</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
-                  commodo ligula eget.
-                </p>
+              <div class="details">
+                <h4 class="my-0 title">
+                  <a href="#">5 Best App Development Tool for Your Project</a>
+                </h4>
+                <ul class="list-inline meta-mb-0 mt-2">
+                  <li class="list-inline-item">09 February, 2020</li>
+                  <li class="list-inline-item">Dolby</li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- ======================= Experience =======================-->
-      <section id="experience">
-        <div class="container">
-          <h2 class="section-title wow fadeInUp">Experience</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="timeline bg-dark rounded padding-30">
-                <div class="timeline-container">
-                  <div class="content">
-                    <span class="time">2021 - Present</span>
-                    <h3 class="title">
-                      <i class="ion-aperture"></i>
-                      Academic Degree
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
-                      nec admodum perfecto.
-                    </p>
-                  </div>
-                </div>
-                <div class="timeline-container">
-                  <div class="content">
-                    <span class="time">2017 - 2013</span>
-                    <h3 class="title">
-                      <i class="ion-grid"></i> Bachelor’s Degree
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
-                      nec admodum perfecto.
-                    </p>
-                  </div>
-                </div>
-                <div class="timeline-container">
-                  <div class="content">
-                    <span class="time">2013 - 2009</span>
-                    <h3 class="title">
-                      <i class="ion-clock"></i> Honours Degree
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
-                      nec admodum perfecto.
-                    </p>
-                  </div>
-                </div>
+          <div class="col-md-4">
+            <div class="blog-item rounded bg-dark shadow-dark">
+              <div class="thumb">
+                <a href="#">
+                  <span class="category">Tutorial</span>
+                </a>
+                <a href="#">
+                  <img src="images/2.svg" alt="blog-title">
+                </a>
+              </div>
+              <div class="details">
+                <h4 class="my-0 title">
+                  <a href="#">Common Misconceptions About Payment</a>
+                </h4>
+                <ul class="list-inline meta-mb-0 mt-2">
+                  <li class="list-inline-item">07 February, 2020</li>
+                  <li class="list-inline-item">Dolby</li>
+                </ul>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="timeline bg-dark rounded padding-30">
-                <div class="timeline-container">
-                  <div class="content">
-                    <span class="time">2021 - Present</span>
-                    <h3 class="title">
-                      <i class="ion-compass"></i> Web Designer
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
-                      nec admodum perfecto.
-                    </p>
-                  </div>
-                </div>
-                <div class="timeline-container">
-                  <div class="content">
-                    <span class="time">2017 - 2013</span>
-                    <h3 class="title">
-                      <i class="ion-bag"></i> Front-End Developer
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
-                      nec admodum perfecto.
-                    </p>
-                  </div>
-                </div>
-                <div class="timeline-container">
-                  <div class="content">
-                    <span class="time">2013 - 2009</span>
-                    <h3 class="title">
-                      <i class="ion-monitor"></i> Back-End Developer
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet quo ei simul congue exerci ad
-                      nec admodum perfecto.
-                    </p>
-                  </div>
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="blog-item rounded bg-dark shadow-dark">
+              <div class="thumb">
+                <a href="#">
+                  <span class="category">Business</span>
+                </a>
+                <a href="#">
+                  <img src="images/3.svg" alt="blog-title">
+                </a>
+              </div>
+              <div class="details">
+                <h4 class="my-0 title">
+                  <a href="#">3 Things To Know About Startup Business</a>
+                </h4>
+                <ul class="list-inline meta-mb-0 mt-2">
+                  <li class="list-inline-item">06 February, 2020</li>
+                  <li class="list-inline-item">Dolby</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+    <!-- ======================= Contact =======================-->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">GET IN TOUCH</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="contact-info">
+              <h3>LET'S TALK ABOUT EVERYTHING!</h3>
+              <p class="text-white">Don't like forms? Send me an <a href="mailto:name@example.com">email</a>. 👋</p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <form id="contact-form" class="contact-form mt-6" action="#">
+              <div class="messages"></div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your name"
+                      required="required" data-error="Name is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="column col-md-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="InputEmail" name="InputEmail"
+                      placeholder="Email address" required="required" data-error="Email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="column col-md-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Subject"
+                      required="required" data-error="Subject is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="column col-md-12">
+                  <div class="form-group">
+                    <textarea name="InputMessage" id="InputMessage" class="form-control form-area" rows="5"
+                      placeholder="Message" required="required" data-error="Message is required."></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default">Send
+                Message</button>
 
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Bootstrap Script -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- Script JS -->
-    <script>
-      $(document).ready(function () {
-        /* burger menu */
-        $(".nav-icon").click(function () {
-          $(".full-nav").addClass("open");
-        });
-        $(".nav-close").click(function () {
-          $(".full-nav").removeClass("open");
-        });
-        /* sticky nav */
-        $(window).scroll(function () {
-          let scroll = $(window).scrollTop();
-          if (scroll > 100) {
-            $(".nav").addClass("sticky");
-          } else {
-            $(".nav").removeClass("sticky");
-          }
-        });
-      });
-    </script>
-  </body>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Bootstrap Script -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- Slick JS-->
+  <script src="js/slick.min.js"></script>
+  <!-- Script JS -->
+  <script src="js/main.js"></script>
+</body>
+
 </html>
